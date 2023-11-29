@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.screen {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/Image/imdad.jpg);
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carte {
+    width: 90%;
+    backdrop-filter: blur(150px);
+    border-radius: 30px;
+    border-color: red;
+    max-width: 440px;
+    color:black;
+    text-align: center;
+    padding: 50px 30px;
+    border: 2px solid rgba(255,255,255,0.3);
+}
+
+.carte img {
+    width: 150px;
+    border-radius: 50%;
+}
+.carte h2 {
+    font-size: 50px;
+    font-weight: 600px;
+    margin-top:20px;
+}
+
+.carte p {
+    font-size: 20px;
+    margin-top: 20px auto;
+    /*max-width: 300px;*/
+}
+
+.reseau i {
+    position: relative;
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.bouton {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    background: #fff;
+    color: rgb(214, 134, 14);
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px 0 10px;
+}
